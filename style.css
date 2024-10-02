@@ -186,8 +186,13 @@ svg{
         position: relative;
         overflow: hidden;
         border-radius: 15px;
+      }
+
+      .newSHadow {
+       
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       }
+    
     
       .svg-img img {
         width: 100%;
@@ -251,11 +256,14 @@ svg{
       }
 
       .form_label{
-        font-size: large;
+        font-size: 16px;
+        font-weight: 500;
+        color: black;
       }
 
       .large-title {
-        font-size: 3rem; 
+        /* font-size: 3rem;  */
+        font-weight: 600;
         display: inline;
     }
 
@@ -267,3 +275,19 @@ svg{
           padding: 1rem;
         }
       }
+      
+      .formHeight{
+        height: 44px;
+        font-size: 1.6rem;
+        border-radius: 0.6rem;
+        padding-left: 1rem;
+      }
+
+      input::placeholder {
+        font-size: 1.6rem;
+    }
+
+    .formButton{
+        font-size: 16px;
+        border-radius: 0.6rem;
+    }
