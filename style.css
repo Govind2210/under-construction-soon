@@ -16,10 +16,21 @@ body{
     
 }
 
-.main-title{
+.main-title {
     text-align: center;
     margin-top: 4rem;
     margin-bottom: 8rem;
+    /* text-shadow: 
+    1px 0px 1px #ccc, 0px 1px 1px #eee, 
+    2px 1px 1px #ccc, 1px 2px 1px #eee,
+    3px 2px 1px #ccc, 2px 3px 1px #eee,
+    4px 3px 1px #ccc, 3px 4px 1px #eee,
+    5px 4px 1px #ccc, 4px 5px 1px #eee,
+    6px 5px 1px #ccc, 5px 6px 1px #eee,
+    7px 6px 1px #ccc; */
+}
+
+.realText {
     text-shadow: 
     1px 0px 1px #ccc, 0px 1px 1px #eee, 
     2px 1px 1px #ccc, 1px 2px 1px #eee,
@@ -34,13 +45,7 @@ body{
     font-size: 7rem;
     text-transform: uppercase;
     font-weight: 800;
-    color: #555;
-}
-
-.main-title h2{
-    font-size: 4rem;
-    font-weight: 300;
-    text-transform: uppercase;
+   color: black;
 }
 
 .svg-img{
@@ -55,8 +60,6 @@ svg{
 
 #clock{
     animation: clockHand 5s infinite linear;
-    
-    
     transform-box: fill-box;
     transform-origin: bottom;
 }
@@ -136,7 +139,6 @@ svg{
         stroke: #e92949;
       }
   }
-
   /* Media Queries */
 
   @media (min-width: 640px){
@@ -144,34 +146,16 @@ svg{
         font-size: 5rem;
         text-transform: uppercase;
         font-weight: 700;
-        color: #555;
+        color: black;
     }
-    
-    .main-title h2{
-        font-size: 3rem;
-        font-weight: 300;
-        text-transform: uppercase;
     }
-    
-     
-    }
-     
     @media (min-width: 768px){
         .main-title h1{
             font-size: 6rem;
             text-transform: uppercase;
             font-weight: 800;
-            color: #555;
-        }
-        
-        .main-title h2{
-            font-size: 4rem;
-            font-weight: 300;
-            text-transform: uppercase;
-        }
-    
-     
-    }
+           color: black;
+        }}
      
     @media (min-width: 1024px){
      
@@ -179,16 +163,8 @@ svg{
             font-size: 7rem;
             text-transform: uppercase;
             font-weight: 900;
-            color: #555;
-        }
-        
-        .main-title h2{
-            font-size: 5rem;
-            font-weight: 300;
-            text-transform: uppercase;
-        }
-     
-    }
+           color: black;
+        } }
      
     @media (min-width: 1200px){
      
@@ -196,7 +172,7 @@ svg{
             font-size: 8rem;
             text-transform: uppercase;
             font-weight: 900;
-            color: #555;
+           color: black;
         }
         
         .main-title h2{
@@ -213,14 +189,6 @@ svg{
     }
     
     /* new css  */
-
-    .main-title h2 {
-        font-size: 2.5rem;
-        text-align: center;
-        font-weight: 700;
-        color: #333;
-        margin-bottom: 30px;
-      }
     
       .svg-img {
         position: relative;
@@ -275,3 +243,26 @@ svg{
           margin-bottom: 20px;
         }
       }
+      h1{
+        color: black;
+      }
+
+      h2{
+        color: black;
+      }
+      h3{
+        color: black;
+      }
+      p{
+        color: black;
+        font-size: medium;
+      }
+
+      .form_label{
+        font-size: large;
+      }
+
+      .large-title {
+        font-size: 3rem; 
+        display: inline;
+    }
